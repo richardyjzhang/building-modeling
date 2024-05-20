@@ -482,7 +482,7 @@ const DetailPage: React.FC = () => {
         theme={{
           components: {
             Modal: {
-              headerBg: "#1E3256",
+              headerBg: "#B3200A",
               titleColor: "#FFFFFF",
               titleLineHeight: 3,
             },
