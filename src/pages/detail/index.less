@@ -1,0 +1,141 @@
+.root {
+    flex: 1;
+}
+
+.three {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 4rem)
+}
+
+.card {
+    position: absolute;
+    left: 2rem;
+    top: 7rem;
+    width: 25rem;
+    height: calc(100vh - 10rem);
+    background-color: rgba(245, 245, 245, 0.8);
+}
+
+.projectParams {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectParamsSubmitButton {
+    width: 70%;
+    margin-bottom: 2rem;
+}
+
+.floorsWrapper {
+    max-height: 37vh;
+    overflow-y: auto;
+}
+
+.floorAddButtonWrapper {
+    width: 100%;
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.floorAddButton {
+    width: 70%;
+}
+
+.floorInfo {
+    padding: 0.5rem;
+    background-color: rgba(245, 245, 245, 0.8);
+    border-bottom: 1px #ddd solid;
+    display: flex;
+
+    &:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.floorInfoDisplay {
+    flex-grow: 1;
+}
+
+.floorInfoTitle {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.floorInfoText {
+    font-size: 0.8rem;
+}
+
+.floorInfoSettingButton {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.floorInfoSettingButtonText {
+    color: #1E3256;
+    cursor: pointer;
+}
+
+.floorInfoViewButton {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-right: 2rem;
+}
+
+.floorInfoViewButtonText {
+    color: #1E3256;
+    cursor: pointer;
+}
+
+.floorInfoSpace {
+    flex-grow: 1;
+}
+
+.modal {
+    :global {
+        .ant-modal-content {
+            padding: 0;
+        }
+
+        .ant-modal-title {
+            margin-left: 1rem;
+        }
+
+        .ant-modal-close {
+            top: 0.5rem;
+            color: white;
+        }
+    }
+}
+
+.modalMain {
+    height: 80vh;
+    display: flex;
+}
+
+.modalCanvas {
+    overflow: hidden;
+}
+
+.modalInfo {
+    width: 20%;
+    border-left: #ddd solid 1px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.modalInfoTitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.modalInfoButton {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+

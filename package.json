@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "author": "zhangyj <richard.yujia.zhang@gmail.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.3.6",
+    "@types/three": "^0.164.0",
+    "antd": "^5.16.5",
+    "fabric": "^5.3.0",
+    "three": "^0.164.1",
+    "umi": "^4.1.10"
+  },
+  "devDependencies": {
+    "@types/fabric": "^5.3.7",
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^5.0.3"
+  }
+}
